@@ -33,6 +33,8 @@ El notebook se ejecuta desde su carpeta, `tarea1/src/notebook`.
 | 2.6 | Pérdida al reconstruir las dos variables con una sola dimensión. |
 | 2.7 | Ciudades sobre una línea, en el primer componente. |
 | 2.8 | Ciudades en dos dimensiones, con las variables numéricas estandarizadas. |
+| 3.1 | Pendiente e intercepto del PIB sobre la población, sin librería de regresión, y su lectura económica y estadística. |
+| 3.2 | Recta de regresión junto a las ciudades, y el residuo de cada una. |
 
 Las gráficas se ven al ejecutar el notebook. No se guardan como archivo.
 
