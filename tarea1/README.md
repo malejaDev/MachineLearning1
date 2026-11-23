@@ -12,6 +12,7 @@ Machine Learning I, Especialización de Big Data y Analytics.
 - [analisisCiudades.xlsx](docs/analisisCiudades.xlsx): datos de las 30 ciudades y las fórmulas del punto 1.1.
 - [tarea1.ipynb](src/notebook/tarea1.ipynb): análisis en Python. Lee el Excel con la ruta `../../docs/analisisCiudades.xlsx`.
 - [faces.zip](src/notebook/data/faces.zip): caras en escala de grises del punto 4. El notebook las lee desde `data/faces.zip` y solo descarga el archivo si no está.
+- [amazon_products.csv](src/notebook/data/amazon_products.csv): 64 productos del punto 5. En el material del curso el archivo se llama `amazon_product.csv`. El notebook lo lee desde `data/amazon_products.csv`.
 
 El notebook se ejecuta desde su carpeta, `tarea1/src/notebook`.
 
@@ -38,8 +39,15 @@ El notebook se ejecuta desde su carpeta, `tarea1/src/notebook`.
 | 3.2 | Recta de regresión junto a las ciudades, y el residuo de cada una. |
 | 4.1 | Cara promedio de las 1.300 caras de entrenamiento, cada una de 128 × 128. |
 | 4.2 | PCA de las caras centradas, sin librería de PCA. El 95 % de la varianza pide 155 componentes y el 99 %, 466. Reconstrucción de las primeras cinco con 1, 3, 20, 155 y 466 componentes. |
+| 5.1.1 | Barras de las categorías: más vendido, Amazon's Choice, Prime, Climate Pledge y variaciones. |
+| 5.1.2 | Histogramas de las variables numéricas, el producto a más de 5 desviaciones y las pruebas de normalidad. |
+| 5.2.1 | Boxplots de las ventas del mes según cada categoría, en una figura de dos filas. |
+| 5.2.2 | Dispersión de cada variable numérica frente a las ventas. |
+| 5.3.1 | Matriz de correlación y qué acompaña a las ventas. |
+| 5.3.2 | Variables dummy y la categoría con mayor correlación. |
+| 5.3.3 | Media calculada en el entrenamiento, partición 80/20 y recta de las estrellas sobre el número de calificaciones, sin librería de regresión. |
 
-Las gráficas se ven al ejecutar el notebook. No se guardan como archivo.
+Las gráficas se ven al ejecutar el notebook. No se guardan como archivo. Las del punto 5 usan Plotly.
 
 ```
 tarea1/
@@ -51,5 +59,6 @@ tarea1/
     └── notebook/
         ├── tarea1.ipynb
         └── data/
+            ├── amazon_products.csv
             └── faces.zip
 ```
